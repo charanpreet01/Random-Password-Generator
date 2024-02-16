@@ -95,6 +95,10 @@ body{
     .container{
         margin: 16%;
     }
+
+    .length{
+        width: 250px;
+    }
 }
 
 @media (max-width:450px) {
