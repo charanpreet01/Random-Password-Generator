@@ -12,7 +12,7 @@ body{
 
 .container{
     margin: 12%;
-    width: 50%;
+    width: 60%;
     max-width: 500px;
 }
 
@@ -30,6 +30,7 @@ body{
 
 .container h1{
     font-size: 2.5rem;
+    width: 500px;
 }
 
 .container h1 span{
@@ -84,4 +85,20 @@ body{
     font-size: 1rem;
     text-align: center;
 
+}
+
+@media (max-width:725px) {
+    .container h1{
+        font-size: 2rem;
+    }
+
+    .container{
+        margin: 16%;
+    }
+}
+
+@media (max-width:450px) {
+    .display input{
+        font-size: 1.2rem;
+    }
 }
